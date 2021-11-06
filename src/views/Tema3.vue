@@ -430,15 +430,15 @@
       #t_3_5.h2 3.5   Empaque de productos según naturaleza
     p.mt-5 Para la elaboración de empaques y embalajes se deben considerar algunos factores, teniendo en cuenta el producto a preservar y el modo de transporte que se va a utilizar, estos factores son: 
     .row.mt-5(data-aos="zoom-in")
-      .col-4.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
+      .col.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
         figure
           img(src="@/assets/template/tema-3-44.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Fragilidad
-      .col-4.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
+      .col.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
         figure
           img(src="@/assets/template/tema-3-45.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Durabilidad
-      .col-4.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
+      .col.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
         figure
           img(src="@/assets/template/tema-3-46.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Resistencia a la abrasión
