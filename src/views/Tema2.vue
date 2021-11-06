@@ -25,7 +25,7 @@
             p Cuando registre un producto lo debe ubicar con cuidado y organizadamente en el lugar de empaque, recuerde que la mercancía es del cliente.  
         .row.bg-tema-2-5.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
-            p  Debe retirar o desactivar los tag’s de seguridad, recuerde que algunos proveedores los colocan a sus productos, como cosméticos, medicamentos, algunas marcas de leche en polvo, libros y revistas o los hard tag que le colocan a los textiles, zapatos y otros productos que no se dañan con este sistema de seguridad. 
+            p  Debe retirar o desactivar los <em>tag’s</em> de seguridad, recuerde que algunos proveedores los colocan a sus productos, como cosméticos, medicamentos, algunas marcas de leche en polvo, libros y revistas o los <em>hard tag</em> que le colocan a los textiles, zapatos y otros productos que no se dañan con este sistema de seguridad. 
         .row.bg-tema-2-6.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             p Debe revisar con sutileza los recipientes con tapa o empacados en cajas, baldes, ollas, planchas, licuadoras, vajillas, licores, tinturas y las cremas dentales que vea que han sido destapadas. Estos productos se prestan para guardar mercancía o cambiar su contenido. Su revisión también le permite verificar su estado.  
@@ -34,12 +34,12 @@
             p Los textiles, calzado y productos de papelería los debe revisar al registrar o empacar, tocando los bolsillos de las prendas, revisando las tallas de los zapatos y hojeando las revistas y cuadernos.  Productos como los bombillos deben verificarse con el cliente si fueron ensayados.  
     .row.mt-5(data-aos="slide-up")
       .col-7.px-4
-        .h4.text-morado El desactivador de tag’s
-        p.mt-4 Es el equipo para que se desactiven los tag’s o dispositivos de seguridad que le colocan en el almacén a los productos para evitar que salgan sin ser registrados, la mayoría de ellos son de textiles, variedades y licores.
-        p.mt-3 Los puestos de pago también tienen incorporado un desactivador para los tag’s que traen internamente en el empaque algunos cosméticos y medicamentos, estos dispositivos son colocados por el fabricante y no son reutilizables.
+        .h4.text-morado El desactivador de <em>tag’s</em>
+        p.mt-4 Es el equipo para que se desactiven los <em>tag’s</em> o dispositivos de seguridad que le colocan en el almacén a los productos para evitar que salgan sin ser registrados, la mayoría de ellos son de textiles, variedades y licores.
+        p.mt-3 Los puestos de pago también tienen incorporado un desactivador para los <em>tag’s</em> que traen internamente en el empaque algunos cosméticos y medicamentos, estos dispositivos son colocados por el fabricante y no son reutilizables.
         .cajon.color-secundario.mt-4
           .row.p-4            
-            p Siempre se debe retirar y/o deshabilitar el tag del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
+            p Siempre se debe retirar y/o deshabilitar el <em>tag</em> del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
       .col-5.zoom-in
         figure
           img(src="@/assets/template/tema-2-8.png", alt="Texto que describa la imagen")
@@ -61,7 +61,7 @@
     .titulo-segundo.mt-5
       #t_2_2.h2  2.2 Legalidad de medios de pago
     p.mt-5 Cabe destacar que cuando se habla de un medio de pago se habla del instrumento que permite comprar productos o servicios, se puede decir que es un bien equivalente al dinero o a las tarjetas débito o crédito que permiten hacer compras o pagar deudas, el dinero sirve como medio de pago o de cambio e incluso como forma de ahorro.
-    .h4.text-morado Ejemplos de medio de pago
+    .h4.text-morado.mt-5 Ejemplos de medio de pago
     p.mt-4 Algunos medios de pago son:
     .row.mt-5.py-3.bg-azul-claro(data-aos="slide-left")
       .col-4
@@ -80,7 +80,7 @@
             | Las tarjetas de débito o crédito.
           li.mt-4 
             i.fa-brain
-            | Los instrumentos de pago por Internet como Paypal también son medios de pago.
+            | Los instrumentos de pago por Internet como <em>Paypal</em> también son medios de pago.
     .row.mt-5
       .col-7
         .row      
@@ -130,9 +130,9 @@
         figure
           img(src="@/assets/template/tema-2-13.png", alt="Texto que describa la imagen").px-5
       .col-6
-        p Los métodos de pago seguros en Colombia tienen una relevancia en el mundo del comercio electrónico, estos métodos son aquellos donde todas las operaciones se realizan de forma telemática, son las herramientas con las que se transfiere el dinero del comprador al vendedor, la fase crítica se da en las tiendas online, por eso los propietarios de un e-commerce necesitan tener sus medios de pago bajo control y para ello necesitan saber cómo funcionan.
-        p.mt-3 Se puede definir un método de pago online como un instrumento que permite recibir pagos de los clientes de forma inmediata, el dinero se dirige del comprador al vendedor pasando por un puente de pagos, que regula y autoriza el flujo.
-    p.mt-5 Los diferentes niveles de seguridad que existen en las plataformas de pago online agrupan los terminales de punto de venta virtuales (TPV virtual) que otorgan las entidades bancarias o los medios de pago, y que no dependen de ningún banco, ni de los pagos PayPal, Stripe o similares.
+        p Los métodos de pago seguros en Colombia tienen una relevancia en el mundo del comercio electrónico, estos métodos son aquellos donde todas las operaciones se realizan de forma telemática, son las herramientas con las que se transfiere el dinero del comprador al vendedor, la fase crítica se da en las tiendas <em>online</em>, por eso los propietarios de un <em>e-commerce</em> necesitan tener sus medios de pago bajo control y para ello necesitan saber cómo funcionan.
+        p.mt-3 Se puede definir un método de pago <em>online</em> como un instrumento que permite recibir pagos de los clientes de forma inmediata, el dinero se dirige del comprador al vendedor pasando por un puente de pagos, que regula y autoriza el flujo.
+    p.mt-5 Los diferentes niveles de seguridad que existen en las plataformas de pago <em>online</em> agrupan los terminales de punto de venta virtuales (TPV virtual) que otorgan las entidades bancarias o los medios de pago, y que no dependen de ningún banco, ni de los pagos PayPal, Stripe o similares.
     .row.mt-5.py-3.bg-azul-claro(data-aos="slide-right")
       .col-4
         figure
@@ -141,14 +141,14 @@
         ul.lista-ul
           li 
             i.fa-brain
-            | El conocido como modo seguro o 3D Secure.
+            | El conocido como modo seguro o <em>3D Secure</em>.
           li.mt-4
             i.fa-brain
             | El modo mixto.
           li.mt-4 
             i.fa-brain
-            | Modo normal o sin 3D Secure.
-    p.mt-5 La mayoría de las entidades bancarias conceden de forma automática a los independientes y pymes un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su e-commerce, el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo 3D Secure.
+            | Modo normal o sin <em>3D Secure</em>.
+    p.mt-5 La mayoría de las entidades bancarias conceden de forma automática a los independientes y <em>pymes</em> un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su <em>e-commerce</em>, el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo <em>3D Secure</em>.
     .row.mt-5(data-aos="zoom-in")
       .col-10.offset-1
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4.mb-5
@@ -159,8 +159,8 @@
             p.mb-0  Hay que tener en cuenta que todas las tarjetas débito y crédito están compuestas por 16 dígitos, tienen fecha de caducidad y un criptograma visual (CVV) de tres dígitos de control para la verificación de la transacción en el sitio web del banco, el cual pide una clave adicional como medida de seguridad, que ayuda a disminuir los niveles de inseguridad en los pagos que se realizan con tarjetas débito y crédito, ofreciendo confiabilidad en los pagos electrónicos que realizan los clientes.
     .row.mt-5.zoom-in
       .col-7.cuadro-morado-fondo.align-self-center
-        p La condición o circunstancia desventajosa para las tiendas online es que a pesar de que algunas de las tarjetas 3D Secure están habilitadas para las compras online, fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
-        p.mt-3 Para habilitar una tarjeta con 3D Secure y que esté disponible al momento de la compra online en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
+        p La condición o circunstancia desventajosa para las tiendas <em>online</em> es que a pesar de que algunas de las tarjetas <em>3D Secure</em> están habilitadas para las compras <em>online</em>, fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
+        p.mt-3 Para habilitar una tarjeta con <em>3D Secure</em> y que esté disponible al momento de la compra <em>online</em> en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
       .col-5.align-self-center
         figure
           img(src="@/assets/template/tema-2-16.svg", alt="Imagen descriptiva").w-75.margin-0-auto
@@ -181,7 +181,7 @@
       .col-10.offset-1
         .row.text-center.py-4.bg-azul-claro
           .h4 Errores en el arqueo de caja
-        .row.py-4.bg-gris.px-4
+        .row.py-5.mb-5.bg-lila.px-4
           .h4.text-morado Faltantes de dinero, lo cual puede suceder por:
           .col-4.mt-5.p-4.align-self-center
             figure
@@ -217,7 +217,7 @@
             li.mt-4
               i.fa-brain
               | Se cobra un valor mayor al cliente por las compras realizadas.
-          figure(style="margin-top: -3.5rem").pb-5
+          figure.pb-5
             img(src="@/assets/template/tema-2-19.svg")
         .cajon.color-secundario.mt-5.mx-5
           .row.p-4            
@@ -228,7 +228,7 @@
       #t_2_5.h2 2.5    Devoluciones 
     .row.mt-5.zoom-in
       .col-7.align-self-center
-        p Las devoluciones de mercancía que deben asumir las empresas para mantener una buena relación con los clientes le permiten minimizan el impacto económico que implican. La creciente incorporación del modelo omnicanal, es uno de los grandes impulsores de las devoluciones. Para muchas organizaciones la devolución es un dolor de cabeza, pero resulta que, para otras, es una forma natural de hacer negocios.
+        p Las devoluciones de mercancía que deben asumir las empresas para mantener una buena relación con los clientes le permiten minimizar el impacto económico que implican. La creciente incorporación del modelo omnicanal, es uno de los grandes impulsores de las devoluciones. Para muchas organizaciones la devolución es un dolor de cabeza, pero resulta que, para otras, es una forma natural de hacer negocios.
         .cajon.color-secundario.mt-4
           .row.p-4            
             p El secreto en el manejo de las devoluciones de productos reside en la capacidad que tienen las organizaciones para hacerlas, esto permite comercializar nuevamente lo que esté en buenas condiciones y rescatar del producto las partes útiles que se puedan recuperar y volver a vender en su estado original.

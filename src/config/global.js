@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Destrezas en el punto de pago',
     descripcionCurso:
-      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones que se le asignan a los cajeros en los retail.',
+      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones que se le asignan a los cajeros en los <em>retail</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -120,12 +120,12 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /* {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      }, */
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -156,24 +156,24 @@ export default {
   referencias: [
     {
       referencia:
-        'Actualícese. (2018). Cierre o arqueo de caja diario: errores y complicaciones que se pueden presentar en el proceso.',
+        'Actualícese. (2018). Cierre o arqueo de caja diario: errores y complicaciones que se pueden presentar en el proceso. ',
       link:
         'https://controlinventarios.wordpress.com/2018/12/11/la-complejidad-de-la-devolucion-de-mercancias/ ',
     },
     {
       referencia:
-        'Clasificación de envases. (2017). Clasificación de los envases según su función.',
+        'Clasificación de envases. (2017). Clasificación de los envases según su función. ',
       link:
         'https://clasificaciondeenvases.blogspot.com/2017/10/clasificacion-de-envases-en-funcion-de.html',
     },
     {
       referencia:
-        'LogDist. (2020). Normas ISO para empaques y embalajes: las reglas de calidad.',
+        'LogDist. (2020). Normas ISO para empaques y embalajes: las reglas de calidad. ',
       link:
         'https://es.vmalogdist.com/normas-iso-para-empaques-y-embalajes-las-reglas-de-calidad/',
     },
     {
-      referencia: 'UMNG. (s.f.) Empaque y embalaje. UMNG.',
+      referencia: 'UMNG. (s.f.) Empaque y embalaje. UMNG. ',
       link:
         'http://virtual.umng.edu.co/distancia/ecosistema/ovas/administracion_empresas/logistica/unidad_4/DM.pdf',
     },
@@ -182,22 +182,22 @@ export default {
     {
       termino: 'Apertura',
       significado:
-        'Acto con que se da comienzo a las funciones de una asamblea, centro o institución en la sesión de apertura de cualquier proceso.',
+        'acto con que se da comienzo a las funciones de una asamblea, centro o institución en la sesión de apertura de cualquier proceso.',
     },
     {
       termino: 'Caja',
       significado:
-        ' Aparato usado en los comercios y establecimientos públicos para realizar automáticamente operaciones matemáticas básicas y guardar el dinero.',
+        'Aparato usado en los comercios y establecimientos públicos para realizar automáticamente operaciones matemáticas básicas y guardar el dinero.',
     },
     {
       termino: 'Cajero',
       significado:
-        ' Persona encargada de la entrada y salida de caudales en un comercio o un banco.',
+        'Persona encargada de la entrada y salida de caudales en un comercio o un banco.',
     },
     {
       termino: 'Cliente',
       significado:
-        ' Persona que utiliza habitualmente los servicios de un profesional o de una empresa.',
+        'Persona que utiliza habitualmente los servicios de un profesional o de una empresa.',
     },
     {
       termino: 'Clientela',
@@ -211,7 +211,7 @@ export default {
     {
       termino: 'Durabilidad',
       significado:
-        ' Cualidad de duradero, la durabilidad del acero inoxidable está demostrada.',
+        'Cualidad de duradero, la durabilidad del acero inoxidable está demostrada.',
     },
     {
       termino: 'Embalaje',
@@ -220,7 +220,7 @@ export default {
     },
     {
       termino: 'Empaque',
-      significado: ' Conjunto de materiales con que se envuelve una cosa.',
+      significado: 'Conjunto de materiales con que se envuelve una cosa.',
     },
     {
       termino: 'Hándicap',
@@ -247,7 +247,7 @@ export default {
     },
     {
       termino: 'Recaudo',
-      significado: ' Bien custodiado, en lugar seguro y controlado.',
+      significado: 'Bien custodiado, en lugar seguro y controlado.',
     },
     {
       termino: 'Tag’s',

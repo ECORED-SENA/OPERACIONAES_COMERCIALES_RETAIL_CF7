@@ -7,7 +7,7 @@
         span 3
       h1 Empaque de productos 
     .row
-      p.mt-5 Para este proceso se deben tener en cuenta algunos cuidados al momento de registrar los productos y así evitar los reclamos, robos y averiar los productos, los cuales verá a continuación.
+      p.mt-5 Es la última acción que realiza el cajero con el cliente en el puesto de pago, facilitándole el transporte de sus productos. Es un proceso de mucha importancia, ya que parte de la buena imagen de la compañía es el empaque, para el cliente esta última impresión debe ser grata y positiva. 
       .h4.mt-5.text-morado Para que logre prestar un excelente servicio de empaque debe tener en cuenta las siguientes recomendaciones:
     .row.mt-5(data-aos="zoom-in")
       .col-1.offset-1.text-center.py-1.bg-morado-oscuro
@@ -200,6 +200,11 @@
             .cajon.color-secundario.mt-3
               .row.p-4            
                 p Las frutas grandes no se deben poner al lado de las frutas más pequeñas y delicadas, por ejemplo, sandía con ciruelas o papaya con mamoncillos. (Así evitará su maltrato y el deterioro del producto).
+        .row.bg-tema-3-5.rounded-20.position-slider(style="margin-left:0%").p-5  
+          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
+            .h4 Por color
+            p.mt-3 La combinación de los colores de los productos debe ser agradable a la vista del cliente. Se debe tener en cuenta el contraste de los colores claros y oscuros (cuando se empaca en bolsa transparente). 
+        
         .row.bg-tema-3-3.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.bg-gris.rounded-20.cuadro-gris.px-0
             .row.mx-0.px-5.pt-5
@@ -209,6 +214,11 @@
             .cajon.color-secundario.mt-3
               .row.p-4            
                 p Las hortalizas de hoja, los cítricos y los champiñones son propensos a absorber olores fuertes.
+        .row.bg-tema-3-6.rounded-20.position-slider(style="margin-left:0%").p-5  
+          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
+            .h4 Por maduración
+            p.mt-3 Según su velocidad de maduración y respiración, no se deben empacar juntos productos que liberen gas etileno.
+            p.mt-3 Ejemplo: el plátano maduro con repollo, banano con tomate de aliño o arveja con hortalizas de hoja.
         .row.bg-tema-3-4.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 Por peso
@@ -223,15 +233,7 @@
                 i.fa-brain
                 | Livianos
               
-        .row.bg-tema-3-5.rounded-20.position-slider(style="margin-left:0%").p-5  
-          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
-            .h4 Por color
-            p.mt-3 La combinación de los colores de los productos debe ser agradable a la vista del cliente. Se debe tener en cuenta el contraste de los colores claros y oscuros (cuando se empaca en bolsa transparente). 
-        .row.bg-tema-3-6.rounded-20.position-slider(style="margin-left:0%").p-5  
-          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
-            .h4 Por maduración
-            p.mt-3 Según su velocidad de maduración y respiración, no se deben empacar juntos productos que liberen gas etileno.
-            p.mt-3 Ejemplo: el plátano maduro con repollo, banano con tomate de aliño o arveja con hortalizas de hoja.
+        
         div.row.bg-tema-3-7.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 Por constitución
@@ -266,7 +268,7 @@
         p.mt-3 Teniendo en cuenta los diferentes tipos de envases se deben categorizar en primarios, secundarios y terciarios, el envase primario es el que protege y está en contacto directo con el producto, el secundario contiene varios productos y facilita su traslado, el terciario es el que contiene envases grandes con mucha mercancía.
         .row
           .col-10
-            a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mt-4.mb-lg-0(href="https://www.youtube.com/watch?v=yzNQGlXXcms" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -289,6 +291,11 @@
             .row.mx-0.px-5.pt-5
               .h4 Envase secundario
               p.mt-3 Es el envase contenedor unitario de uno o varios envases primarios. Cumple la función de protegerlos, identificarlos y otorgar información sobre las cualidades del producto.
+        .row.bg-tema-3-13.rounded-20.position-slider(style="margin-left:0%").p-5  
+          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
+            .h4 Envase terciario
+            p.mt-3 Es el envase que cumple con la función de distribuir, unificar y proteger el producto a lo largo de la cadena comercial.  Este envase se refiere a la caja de cartón corrugado que contendrá varias latas de leche para su distribución a los almacenes.
+         
         .row.bg-tema-3-10.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.bg-gris.rounded-20.cuadro-gris.px-0
             .row.mx-0.px-5.pt-5
@@ -298,17 +305,12 @@
         .row.bg-tema-3-11.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 ¿Qué tipo de envases plásticos se pueden utilizar para alimentos?
-            p.mt-3 El PET (material sintético denominado poliéster) es muy usado en el envasado de los diferentes tipos de refrescos, bebidas para deportistas, agua, salsas, aderezos para ensaladas, vitaminas, botellas de aceite vegetal y envasado de mantequilla de maní. Pero también existen otros materiales.
-              
+            p.mt-3 El PET (material sintético denominado poliéster) es muy usado en el envasado de los diferentes tipos de refrescos, bebidas para deportistas, agua, salsas, aderezos para ensaladas, vitaminas, botellas de aceite vegetal y envasado de mantequilla de maní. Pero también existen otros materiales.     
         .row.bg-tema-3-12.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 Bolsas de plástico
             p.mt-3 Hay que tener en cuenta que solo los envases de plástico permitidos para preparar los alimentos en microondas son los que pueden utilizarse en este aparato.
             p.mt-3 En este sentido no olvidar que este material se puede fundir o contaminar los alimentos.  Si bien es un producto muy útil para diversos usos, este material al menos que se indique no es apto para microondas.
-        .row.bg-tema-3-13.rounded-20.position-slider(style="margin-left:0%").p-5  
-          .col-6.p-5.bg-gris.rounded-20.cuadro-gris
-            .h4 Envase terciario
-            p.mt-3 Es el envase que cumple con la función de distribuir, unificar y proteger el producto a lo largo de la cadena comercial.  Este envase se refiere a la caja de cartón corrugado que contendrá varias latas de leche para su distribución a los almácenes.
         div.row.bg-tema-3-14.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 ¿Cuál es el mejor envase para alimentos?
@@ -331,27 +333,27 @@
           figure
             img(src="@/assets/template/tema-3-36.png", alt="Titulo item")
         .col-8.align-self-center
-          p #[strong Envase unitario:] Como su nombre lo indica contiene un solo producto, la mayoría de los productos tiene envase unitario o primario, es la unidad de venta de un solo contenido.
-          p.mt-3 #[strong Envase múltiple:] Es cualquier recipiente o envoltura que contiene dos o más productos destinados para la venta al cliente, casi siempre su precio es levemente inferior.
-          p.mt-3 #[strong Envase colectivo:] Es la envoltura o recipiente que contiene dos o más productos envasados previamente.
+          p #[strong Envase unitario:] como su nombre lo indica contiene un solo producto, la mayoría de los productos tiene envase unitario o primario, es la unidad de venta de un solo contenido.
+          p.mt-3 #[strong Envase múltiple:] es cualquier recipiente o envoltura que contiene dos o más productos destinados para la venta al cliente, casi siempre su precio es levemente inferior.
+          p.mt-3 #[strong Envase colectivo:] es la envoltura o recipiente que contiene dos o más productos envasados previamente.
 
       div(titulo="Según su textura").row
         .col-4.align-self-center
           figure
             img(src="@/assets/template/tema-3-37.png", alt="Titulo item")
         .col-8.align-self-center
-          p #[strong Envase rígido:] La rigidez de este envase permite ubicar el producto en estibas y soporta mayor peso sin sufrir daños, entre ellos están las latas metálicas y los envases de vidrio.
-          p #[strong Envase semirrígido:] La resistencia de este envase es menor al envase rígido, también se puede ubicar en estibas, entre ellos están los envases de plástico.
-          p #[strong Envase flexible:] Estos envases son fabricados con hojas de aluminio, papel, laminaciones, películas plásticas y otros materiales flexibles, no se deben almacenar en estibas, ya que se pueden deteriorar.
+          p #[strong Envase rígido:] la rigidez de este envase permite ubicar el producto en estibas y soporta mayor peso sin sufrir daños, entre ellos están las latas metálicas y los envases de vidrio.
+          p #[strong Envase semirrígido:] la resistencia de este envase es menor al envase rígido, también se puede ubicar en estibas, entre ellos están los envases de plástico.
+          p #[strong Envase flexible:] estos envases son fabricados con hojas de aluminio, papel, laminaciones, películas plásticas y otros materiales flexibles, no se deben almacenar en estibas, ya que se pueden deteriorar.
       
       div(titulo="Según su fin estratégico").row
         .col-4.align-self-center
           figure
             img(src="@/assets/template/tema-3-38.png", alt="Titulo item")
         .col-8.align-self-center
-          p #[strong Envases de líneas de productos o por familias:] Se utiliza en productos de la misma línea, con el objetivo de facilitar la publicidad de la marca.
-          p #[strong Envases de uso posterior:] Se elabora con el sentido de que sirva para diversos fines, se puede utilizar una vez se ha sacado de su envase o se ha consumido.
-          p #[strong Envases promocionales:] Este envase cumple con las funciones para las cuales fue elaborado y también sirve como promoción, esta función se hace con el fin de provocar al consumidor para su consumo.
+          p #[strong Envases de líneas de productos o por familias:] se utiliza en productos de la misma línea, con el objetivo de facilitar la publicidad de la marca.
+          p #[strong Envases de uso posterior:] se elabora con el sentido de que sirva para diversos fines, se puede utilizar una vez se ha sacado de su envase o se ha consumido.
+          p #[strong Envases promocionales:] este envase cumple con las funciones para las cuales fue elaborado y también sirve como promoción, esta función se hace con el fin de provocar al consumidor para su consumo.
     .h4.mt-5.text-morado Las Normas ISO para empaques y embalajes
     p.mt-5 Las certificaciones para las normas estandarizadas que involucran a los empaques y embalajes corresponden a las siguientes:
     .row.mt-5.position-relative.z-index-2
@@ -363,10 +365,10 @@
                 .tarjeta-flip__img.p-3             
                   .row.align-self-center   
                     .h4.pt-4 ISO 3394
-                    p.mt-4.pb-4 Se refiere a las dimensiones de cajas, plataformas o cargas con pallets. Las cajas externas o masters, utilizadas para el embalaje deben ajustarse a 60×40 cm.
+                    p.mt-4.pb-4 Se refiere a las dimensiones de cajas, plataformas o cargas con <em>pallets</em>. Las cajas externas o <em>masters</em>, utilizadas para el embalaje deben ajustarse a 60×40 cm.
                 .tarjeta-flip__contenido.p-3.bg-tema-3-17           
                   .h4.pt-4.text-transparent ISO 3394
-                  p.mt-4.pb-5.text-transparent Se refiere a las dimensiones de cajas, plataformas o cargas con pallets. Las cajas externas o masters, utilizadas para el embalaje deben ajustarse a 60×40 cm.
+                  p.mt-4.pb-5.text-transparent Se refiere a las dimensiones de cajas, plataformas o cargas con <em>pallets</em>. Las cajas externas o <em>masters</em>, utilizadas para el embalaje deben ajustarse a 60×40 cm.
                         
           .col-6.px-0.bg-morado-claro.rounded-15.ml-4.w-45
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
@@ -380,7 +382,7 @@
                   p.mt-4.pb-4.text-transparent Es una reglamentación desprendida de la norma anterior y hace referencia al etiquetado de envases para venta individual con descripción de ingredientes.
                 
         .row.text-white.mt-3 
-          .col-6.px-0.bg-morado-oscuro.rounded-15.w-45
+          .col-6.px-0.bg-morado-claro.rounded-15.w-45
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.p-3             
@@ -389,9 +391,9 @@
                     p.mt-4.pb-4 Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarlos con mala manipulación.
                 .tarjeta-flip__contenido.p-3.bg-tema-3-19
                   .h4.pt-4.text-transparent ISO 780 y 7000
-                  p.mt-4.pb-4.text-transparent Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarlos con mala manipulación.
+                  p.mt-4.pb-4.text-transparent Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarse con mala manipulación.
                 
-          .col-6.px-0.bg-morado-claro.rounded-15.ml-4.w-45
+          .col-6.px-0.bg-morado-oscuro.rounded-15.ml-4.w-45
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.p-3             
@@ -417,7 +419,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-4
       .col-6.offset-3
-        a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mt-4.mb-lg-0(href="https://www.youtube.com/watch?v=_Lka-gWZ1t8 " target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -647,7 +649,7 @@
           tr
             td.py-4.pl-4 #[strong Madera]
             td.text-small.pl-4 Madera en bruto, cepillada, aglomerada.
-            td.text-small.pl-4 Cajas, pallets, canastas.
+            td.text-small.pl-4 Cajas, <em>pallets</em>, canastas.
             td.text-small.pl-4 Fácil de manipular y estibar.
             td.text-small.pl-4 Altos costos, sensible al sol y humedad, fácil descomposición, contaminable, sensible a plagas, inflamable y pesado.
           tr.bg-gris-claro
