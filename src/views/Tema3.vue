@@ -290,7 +290,7 @@
           .col-6.bg-gris.rounded-20.cuadro-gris.px-0
             .row.mx-0.px-5.pt-5
               .h4 Envase secundario
-              p.mt-3 Es el envase contenedor unitario de uno o varios envases primarios. Cumple la función de protegerlos, identificarlos y otorgar información sobre las cualidades del producto.
+              p.mt-3.mb-3 Es el envase contenedor unitario de uno o varios envases primarios. Cumple la función de protegerlos, identificarlos y otorgar información sobre las cualidades del producto.
         .row.bg-tema-3-13.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 Envase terciario
@@ -301,7 +301,7 @@
             .row.mx-0.px-5.pt-5
               .h4 ¿Qué es el envase y sus características?
               p.mt-3 El envase es todo recipiente o soporte destinado a contener un producto para así poder facilitar su transporte.
-              p.mt-3 Un buen envase se identifica por las siguientes características: posibilidad de contener el producto y resistencia.
+              p.mt-3.mb-5 Un buen envase se identifica por las siguientes características: posibilidad de contener el producto y resistencia.
         .row.bg-tema-3-11.rounded-20.position-slider(style="margin-left:0%").p-5  
           .col-6.p-5.bg-gris.rounded-20.cuadro-gris
             .h4 ¿Qué tipo de envases plásticos se pueden utilizar para alimentos?
@@ -356,8 +356,8 @@
           p #[strong Envases promocionales:] este envase cumple con las funciones para las cuales fue elaborado y también sirve como promoción, esta función se hace con el fin de provocar al consumidor para su consumo.
     .h4.mt-5.text-morado Las Normas ISO para empaques y embalajes
     p.mt-5 Las certificaciones para las normas estandarizadas que involucran a los empaques y embalajes corresponden a las siguientes:
-    .row.mt-5.position-relative.z-index-2
-      .col-8.offset-2.text-center
+    .row.mt-5.position-relative.z-index-2.bg-lila-white.mb-5-cus
+      .col-lg-8.offset-lg-2.col-sm-12.text-center
         .row.text-white
           .col-6.px-0.bg-morado-oscuro.rounded-15.w-45
             .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
@@ -388,7 +388,7 @@
                 .tarjeta-flip__img.p-3             
                   .row.align-self-center 
                     .h4.pt-4 ISO 780 y 7000
-                    p.mt-4.pb-4 Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarlos con mala manipulación.
+                    p.mt-4.pb-4 Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarse con mala manipulación.
                 .tarjeta-flip__contenido.p-3.bg-tema-3-19
                   .h4.pt-4.text-transparent ISO 780 y 7000
                   p.mt-4.pb-4.text-transparent Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarse con mala manipulación.
@@ -423,13 +423,13 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[strong Enlace web.] En el video ilustrativo anexo, adicionalmente podrá conocer un poco sobre packaging.
+            p #[strong Enlace web.] En el video ilustrativo anexo, adicionalmente podrá conocer un poco sobre <em>packaging</em>.
     separador.mt-4
 
     .titulo-segundo.mt-5
       #t_3_5.h2 3.5   Empaque de productos según naturaleza
     p.mt-5 Para la elaboración de empaques y embalajes se deben considerar algunos factores, teniendo en cuenta el producto a preservar y el modo de transporte que se va a utilizar, estos factores son: 
-    .row.mt-5(data-aos="zoom-in")
+    .row.mt-5
       .col.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
         figure
           img(src="@/assets/template/tema-3-44.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
@@ -438,16 +438,16 @@
         figure
           img(src="@/assets/template/tema-3-45.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Durabilidad
-      .col.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
+      .col-custom.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
         figure
           img(src="@/assets/template/tema-3-46.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Resistencia a la abrasión
-    .row.mt-4(data-aos="zoom-in")
-      .col-4.bg-morado-gradiente.rounded-20.p-5.w-31.offset-2
+    .row.mt-4
+      .col-4.bg-morado-gradiente.rounded-20.p-5.w-cus.offset-2-cus
         figure
           img(src="@/assets/template/tema-3-47.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Sensibilidad a la humedad
-      .col-4.bg-morado-gradiente.rounded-20.p-5.w-31.ml-4
+      .col-4.bg-morado-gradiente.rounded-20.p-5.w-cus.ml-4
         figure
           img(src="@/assets/template/tema-3-48.svg", alt="Texto que describa la imagen").w-45.margin-0-auto
         .h4.mt-4.text-center Deterioro y vida útil 

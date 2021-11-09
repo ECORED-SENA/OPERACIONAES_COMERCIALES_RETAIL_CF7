@@ -80,7 +80,7 @@
             | Las tarjetas de débito o crédito.
           li.mt-4 
             i.fa-brain
-            | Los instrumentos de pago por Internet como <em>Paypal</em> también son medios de pago.
+            | Los instrumentos de pago por Internet como Paypal también son medios de pago.
     .row.mt-5
       .col-7
         .row      
@@ -141,14 +141,14 @@
         ul.lista-ul
           li 
             i.fa-brain
-            | El conocido como modo seguro o <em>3D Secure</em>.
+            | El conocido como modo seguro o  3D <em>Secure</em>.
           li.mt-4
             i.fa-brain
             | El modo mixto.
           li.mt-4 
             i.fa-brain
-            | Modo normal o sin <em>3D Secure</em>.
-    p.mt-5 La mayoría de las entidades bancarias conceden de forma automática a los independientes y <em>pymes</em> un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su <em>e-commerce</em>, el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo <em>3D Secure</em>.
+            | Modo normal o sin  3D <em>Secure</em>.
+    p.mt-5 La mayoría de las entidades bancarias conceden de forma automática a los independientes y <em>pymes</em> un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su <em>e-commerce</em>, el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo  3D <em>Secure</em>.
     .row.mt-5(data-aos="zoom-in")
       .col-10.offset-1
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4.mb-5
@@ -159,8 +159,8 @@
             p.mb-0  Hay que tener en cuenta que todas las tarjetas débito y crédito están compuestas por 16 dígitos, tienen fecha de caducidad y un criptograma visual (CVV) de tres dígitos de control para la verificación de la transacción en el sitio web del banco, el cual pide una clave adicional como medida de seguridad, que ayuda a disminuir los niveles de inseguridad en los pagos que se realizan con tarjetas débito y crédito, ofreciendo confiabilidad en los pagos electrónicos que realizan los clientes.
     .row.mt-5.zoom-in
       .col-7.cuadro-morado-fondo.align-self-center
-        p La condición o circunstancia desventajosa para las tiendas <em>online</em> es que a pesar de que algunas de las tarjetas <em>3D Secure</em> están habilitadas para las compras <em>online</em>, fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
-        p.mt-3 Para habilitar una tarjeta con <em>3D Secure</em> y que esté disponible al momento de la compra <em>online</em> en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
+        p La condición o circunstancia desventajosa para las tiendas <em>online</em> es que a pesar de que algunas de las tarjetas  3D <em>Secure</em> están habilitadas para las compras <em>online</em>, fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
+        p.mt-3 Para habilitar una tarjeta con  3D <em>Secure</em> y que esté disponible al momento de la compra <em>online</em> en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
       .col-5.align-self-center
         figure
           img(src="@/assets/template/tema-2-16.svg", alt="Imagen descriptiva").w-75.margin-0-auto

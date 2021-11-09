@@ -61,6 +61,8 @@ p
   padding-left: 3rem !important
 .pl-4
   padding-left: 1.5rem !important
+.w-cus
+  width: 31%
 .w-60
   width: 60%
 .w-64
@@ -98,8 +100,15 @@ p
 .bg-lila
   background-image: url(../assets/template/bg-lila.svg)
   background-repeat: no-repeat
+.bg-lila-white
+  background-image: url(../assets/template/bg-lila-white.svg)
+  background-repeat: no-repeat
 .linea-tiempo-d__item--selected .tarjeta--gris
   background-color: #5C22C333
+.mb-5-cus
+  padding-bottom: 15rem !important
+a.me-5
+  color: #12263F !important
 
 // Imagen infograf
 .img-infografica.color-primario .img-infografica__item__dot::before
@@ -1089,6 +1098,22 @@ th
   -webkit-transition: all 0.3s ease-in-out 0s
   -moz-transition: all 0.3s ease-in-out 0s
   transition: all 0.3s ease-in-out 0s
+.col-custom
+  flex: 1 0 0%;
+.offset-2-cus
+  margin-left: 16.6666666667%;
+
+@media screen and (max-width: 767px)  
+    .col-custom
+      flex: none
+      width: 45% !important
+      margin: 0 auto
+      margin-left: 30% !important
+      margin-top: 20px
+    .w-cus
+      width: 40%
+    .offset-2-cus
+      margin-left: 6.6666666667%
 
 @media screen and (max-width: 640px)
   .content:hover .tarjeta-details
@@ -1099,6 +1124,26 @@ th
     width: 95% !important 
   .content:hover .tarjeta-details
     top: 49%    
+  .col-custom
+    flex: none
+    width: 45% !important
+    margin: 0 auto
+    margin-left: 30% !important
+    margin-top: 20px
+  .w-cus
+    width: 40%
+  .offset-2-cus
+    margin-left: 6.6666666667%
+  .tarjeta-flip:hover .tarjeta-flip__contenedor
+    transform: none
+  .bg-tema-3-19, .bg-tema-3-17, .bg-tema-3-18, .bg-tema-3-20
+    background-image: none
+
+
+  
+
+  
+
 
 .nav-holder
   display: inline-block

@@ -158,7 +158,7 @@ export default {
       referencia:
         'Actualícese. (2018). Cierre o arqueo de caja diario: errores y complicaciones que se pueden presentar en el proceso. ',
       link:
-        'https://controlinventarios.wordpress.com/2018/12/11/la-complejidad-de-la-devolucion-de-mercancias/ ',
+        'https://actualicese.com/cierre-o-arqueo-de-caja-diario-errores-y-complicaciones-que-se-pueden-presentar-en-el-proceso/',
     },
     {
       referencia:
@@ -224,10 +224,12 @@ export default {
     },
     {
       termino: 'Hándicap',
+      terminoHtml: '<em>Hándicap</em>',
       significado: 'Desventaja.',
     },
     {
       termino: 'Hard tag',
+      terminoHtml: '<em>Hard tag</em>',
       significado:
         'Dispositivo de seguridad o identificación electrónica que se adhiere a la mercancía y a las cajas de envío.',
     },
@@ -238,7 +240,7 @@ export default {
     {
       termino: 'POS',
       significado:
-        'Terminal punto de venta (TPV), también denominado POS (Point of Sale, en inglés) es un dispositivo que en un establecimiento comercial permite gestionar tareas relacionadas con la venta.',
+        'Terminal punto de venta (TPV), también denominado POS (<em>Point of Sale</em>, en inglés) es un dispositivo que en un establecimiento comercial permite gestionar tareas relacionadas con la venta.',
     },
     {
       termino: 'Punto de pago',
@@ -251,6 +253,7 @@ export default {
     },
     {
       termino: 'Tag’s',
+      terminoHtml: '<em>Tag’s</em>',
       significado:
         'Etiqueta (lenguaje de marcado), en los lenguajes informáticos de marcado.',
     },
@@ -277,6 +280,124 @@ export default {
     },
   ],
   creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Esperanza Cardona Grisales',
+        cargo: 'Instructora ',
+        centro:
+          'Centro de Gestión Tecnológica de Servicios CGTS - Regional Valle',
+      },
+      {
+        nombre: 'Jaime Alberto Pérez Posada',
+        cargo: 'Instructor',
+        centro: 'Centro de Comercio SENA - Regional Antioquia',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman ',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Adriana Marcela Suárez Eljure',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+    ],
+  },
+  /* creditos: {
     liderEquipo: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -329,7 +450,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
-  },
+  }, */
   // creditosInicio: [
   //   {
   //     titulo: 'En alianza',
