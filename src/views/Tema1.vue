@@ -34,7 +34,7 @@
     p.mt-5 Las operaciones que realiza el cajero en el puesto de pago durante su jornada se clasifican en las etapas definidas como el antes, el durante y el después, vea a continuación el siguiente video.
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/B1SJ6HqeT3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 </template>

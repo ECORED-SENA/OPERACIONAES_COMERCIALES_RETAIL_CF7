@@ -407,16 +407,31 @@
     separador.mt-4
     .titulo-segundo.mt-5
       #t_3_4.h2 3.4   Técnicas de empaque
-    .row.mt-5.zoom-in
+    .row.mt-5.zoom-in.mb-5
       .col-7.cuadro-morado-fondo.align-self-center
         p Uno de los empaques que necesita más cuidado son las frutas y verduras, ya que requieren de un empaque eficaz, teniendo en cuenta que es un producto delicado y se debe proteger su calidad durante su transporte y en los estantes del punto de venta. Este empaque se debe seleccionar dependiendo del tipo de producto y lo que funcione mejor para envolverlo y proveer el mejor método de manejo. Este tipo de empaque debe ser diseñado para soportar de forma eficaz diferentes condiciones en la cadena de abastecimiento: manipulación brusca al cargar y descargar, compresión derivada del peso de otros contenedores (si están apiladas dobles), su movimiento durante el transporte, y la alta humedad que puede presentarse durante el pre-enfriamiento, tránsito y almacenamiento.
         p.mt-3 El tener un buen conocimiento de todos los aspectos de empaque es clave al momento de seleccionar el más adecuado, de acuerdo con el tipo de producto que se enviará y para tener un mejor manejo del producto durante el tránsito.
       .col-5
         figure
           img(src="@/assets/template/tema-3-43.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+    .row.mt-5
+      .col-10.offset-1.mt-5
+        .tarjeta.bg-morado-oscuro.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/template/tema-3-56.svg" alt="Texto que describa la imagen").w-50.margin-0-auto
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1.color-white Transporte del plátano
+                  p.text-small.color-yellow Infografia: Ejemplo de la importancia del empaque, en el transporte del plátano.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/tecnicas_empaque_infografia.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0zIhmZk_890" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-4
       .col-6.offset-3
         a.anexo.mt-4.mb-lg-0(href="https://www.youtube.com/watch?v=_Lka-gWZ1t8 " target="_blank")
