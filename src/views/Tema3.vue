@@ -424,7 +424,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.color-white Transporte del plátano
-                  p.text-small.color-yellow Infografia: Ejemplo de la importancia del empaque, en el transporte del plátano.
+                  p.text-small.color-yellow Infografia: ejemplo de la importancia del empaque en el transporte del plátano.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/tecnicas_empaque_infografia.pdf')" target="_blank")
                     span Descargar
