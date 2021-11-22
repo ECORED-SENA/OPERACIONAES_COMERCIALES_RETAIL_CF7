@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1331.333" height="737.099" viewBox="0 0 1331.333 737.099">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.161" y1="-0.427" x2="-0.067" y2="1.078" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d8ccec"/>
+      <stop offset="1" stop-color="#d9edfc"/>
+    </linearGradient>
+  </defs>
+  <path id="Trazado_145975" data-name="Trazado 145975" d="M7338.147,3331.83s115.008,42.791,202.514,9.607,71.254-68.118,132.506-76.852,82.506,47.159,241.267,50.651,158.759,69.864,315.018,62.879c105.06-4.7,112.508-77.724,228.768-78.6s183.76,50.651,211.261,77.724l-.785-663.059H7340.129S7338.147,3330.957,7338.147,3331.83Z" transform="translate(-7338.147 -2641.531)" opacity="0.64" fill="url(#linear-gradient)"/>
+  <rect id="Rectángulo_39375" data-name="Rectángulo 39375" width="1328" height="73" transform="translate(3)" fill="#fff"/>
+</svg>
